@@ -1,0 +1,237 @@
+body
+		{ 
+			background-color: #ffffff;
+			font: 62.5% "Trebuchet MS", 
+			sans-serif; 
+			margin: 20px;
+                        height: 100%;
+		}
+		.demoHeaders 
+		{ 
+			margin-top: 2em; 
+		}
+
+		#dialog_link 
+		{
+			padding: .4em 1em .4em 20px;
+			text-decoration: none;
+			position: relative;
+		}
+		#dialog_link span.ui-icon 
+		{
+			margin: 0 5px 0 0;
+			position: absolute;
+			left: .2em;
+			top: 50%;
+			margin-top: -8px;
+		}
+                #boton_opciones
+		{
+			padding: .4em 1em .4em 20px;
+			text-decoration: none;
+			position: relative;
+		}
+		#boton_opciones span.ui-icon
+		{
+			margin: 0 5px 0 0;
+			position: absolute;
+			left: .2em;
+			top: 50%;
+			margin-top: -8px;
+		}
+		#boton_resultado 
+		{
+			padding: .4em 1em .4em 20px;
+			text-decoration: none;
+			position: relative;
+		}
+		#boton_resultado span.ui-icon 
+		{
+			margin: 0 5px 0 0;
+			position: absolute;
+			left: .2em;
+			top: 50%;
+			margin-top: -8px;
+		}
+               
+		ul#icons 
+		{
+			margin: 0; 
+			padding: 0;
+		}
+		ul#icons li 
+		{
+			margin: 2px;
+			position: relative;
+			padding: 4px 0;
+			cursor: pointer;
+			float: left;
+			list-style: none;
+		}
+		ul#icons span.ui-icon 
+		{
+			float: left; 
+			margin: 0 4px;
+		}
+		ul.columnas 
+		{
+			Float: left;
+			width: 100%; /*Este ancho sera el total que ocupen muestras columnas */
+			List-style-type: none; /*Eliminamos las viñetas */
+		}
+		/*Definimos las propiedades para <li> a partir de las otorgadas a <ul>*/
+		ul.columnas li
+		{
+			Display: inline; /*Se declara que las propiedades ser�n otorgadas a cada linea*/
+			Float: left;
+			Width:25%;
+		} /*Al definir el ancho definimos tambi�n el n�mero de columnas, siendo 25% para 4 columnas, 33% para 3, 50% para 2 y asi para la cantidad de columnas que deseemos */
+		
+		#Header 	
+		{
+			/*background-position: 5px;*/
+			background-image: url("redmond/images/head.png");
+			background-repeat: repeat-x;
+			height:100px;
+			width:97%;
+                        -moz-border-radius:8px 8px 8px 8px;
+			
+		}
+		#Logo	
+		{
+			position: absolute;
+			background-image: url("redmond/images/logo.png");
+			background-position: 10px 9px;
+			background-repeat: no-repeat;
+			height:100px;
+			width:100%;
+		}
+		#Beta	
+		{
+			/*position: relative;*/
+			position: absolute;
+			background-image: url("redmond/images/beta.png");
+			/*background-position: 69% 120%;*/
+			background-position: 95% 50%;
+			background-repeat: no-repeat;
+			height:100px;
+			width:95%;
+			
+		}
+		#Nombre 	
+		{
+			position: absolute;
+			background-image: url("redmond/images/nombre.png");
+			background-position: 115px 9px;
+			background-repeat: no-repeat;
+			height:100px;
+			width:100%;
+		}
+		#Titulo 	
+		{
+			position: absolute;
+			background-image: url("redmond/images/titulo.png");
+			background-position: center center ;
+			background-repeat: no-repeat;
+			height:110px;
+			width:100%;
+		}
+		#Contenedor
+		{
+			position: relative;
+			background-color: #ffffff;
+			height:100%;
+			width:100%;
+			margin-top: 10px;
+		}
+		#ContPrincipal
+		{
+			position: relative;
+			background-color: #ffffff;
+			height:100%;
+			width:69%;
+			float: left;
+		}
+		#ContDerecho
+		{
+			position: relative;
+			background-color: #ffffff;
+			height:100%;
+			width:30%;
+			float: right;
+		}
+		#ContDerechoBajo
+		{
+			position: fixed;
+			background-color: #ffffff;
+			height:100%;
+			width:30%;
+			float: right;
+		}
+		#PieIndex
+		{
+  			background-image: url("redmond/images/head.png");
+			background-repeat: repeat-x;
+			margin: 10px 0 0 0;
+                        position:absolute;
+			height:100px;
+			width:95%;
+			top: 125%;
+			text-align:center;
+			color:#ffffff;
+                        -moz-border-radius:8px 8px 8px 8px;
+			                       
+                        
+                }
+                .wrapper {
+                min-height: 100%;
+                height: auto !important;
+                height: 100%;
+                margin: 0 auto -200px;
+                }
+                .push {
+                height: 100%;
+                }
+	
+		.selectallnone {
+			border: 1px solid #86B5D9; 
+			background: #dfeffc url(images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x; 
+			color: #2e6e9e; 
+			outline: none; 
+			/*text-decoration:none;*/
+			text-decoration:inherit;
+			-moz-border-radius: 5px; 
+			-webkit-border-radius: 5px;
+			}
+	 	.clearfloat 
+	 	{ /* esta clase debe colocarse en un elemento div o break y debe ser el último elemento antes del cierre de un contenedor que incluya completamente a un elemento flotante */
+    		clear:both;
+        	height:0;
+        	font-size: 1px;
+        	line-height: 0px;
+    	}
+  		#dialog_iframe{
+                            overflow:  hidden;
+                            margin: 10px 0px 0px 0px ;
+                            background-color: #666666;
+                              -moz-border-radius: 7px;
+                            -webkit-border-radius: 7px;
+                           
+                }
+                #dialog_url{
+                            overflow: hidden;
+                            padding: 0px 0px 0px 0px ;
+                            margin: 5px 3px 5px 3px ;
+                            -moz-border-radius: 7px;
+                            -webkit-border-radius: 7px;
+                            background-color: white;
+                            border: 5px #6e6e71;
+                            height: 317px;
+
+                }
+
+                #iframe_content{
+                    overflow: hidden;
+                    -moz-border-radius:8px 8px 8px 8px;
+
+                }
